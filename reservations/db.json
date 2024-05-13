@@ -15,7 +15,27 @@
       "id": "4cbe",
       "username": "YES²",
       "password": "YES"
+    },
+    {
+      "id": "1435",
+      "username": "Viktor",
+      "password": "123456789"
+    },
+    {
+      "id": "34ed",
+      "username": "Viktor",
+      "password": "123456789"
     }
   ],
-  "reservations": []
+  "reservations": [
+    {
+      "id": "9fb6",
+      "restaurant": "Djaany",
+      "date": "2024-05-13",
+      "time": "19:00",
+      "people": "5",
+      "tableDetails": "-",
+      "comments": "Anniversaire"
+    }
+  ]
 }

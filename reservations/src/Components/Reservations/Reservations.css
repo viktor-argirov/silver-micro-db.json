@@ -1,10 +1,8 @@
-/* Reservations.css */
 
-/* Wrapper for the entire reservation component */
 .reservations-wrapper {
     position: relative;
-    width: 1000px; /* Adjust the width as needed */
-    height: auto; /* Height will be determined by the content */
+    width: 1000px; 
+    height: auto; 
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
@@ -15,7 +13,7 @@
     margin: auto;
 }
 
-/* Table styling */
+
 .reservations-table {
     width: 100%;
     border-collapse: collapse;
@@ -38,7 +36,7 @@
     color: #fff;
 }
 
-/* Button styling */
+
 .make-reservation-btn {
     display: block;
     width: 150px;
@@ -53,68 +51,70 @@
     text-align: center;
 }
 
-/* Modal container */
+
 .modal {
-    display: none; /* Initially hidden */
+    display: none; 
     position: fixed;
-    top: 50%; /* Vertically center the modal */
-    left: 50%; /* Horizontally center the modal */
-    transform: translate(-50%, -50%); /* Adjust the position to center the modal */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-0%, -32%); 
     z-index: 1000;
-    width: 60%; /* Adjust width as needed */
-    background-color: white;
+    width: 60%; 
+    background-color: rgb(255, 255, 255);
     border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    color: rgb(0, 0, 0);
 }
 
-/* Show the modal when the state is true */
+
 .modal.show {
-    display: block;
+    display: table;
 }
 
-/* Modal content */
+
 .modal-content {
     margin: auto;
+    background-color: green;
+
 }
 
-/* Modal header */
+
 .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Modal footer */
+
 .modal-footer {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-/* Buttons */
+
 button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #3498db; /* Blue button color */
-    color: #fff; /* White text */
+    background-color: #3498db; 
+    color: #fff; 
     font-weight: bold;
     margin: 5px;
 }
 
 button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9; 
 }
 
-/* Add any additional styles for modal content elements */
 .modal-content input,
 .modal-content textarea {
-    width: 100%; /* Full width */
-    padding: 10px; /* Padding for inputs */
-    border: 1px solid #bdc3c7; /* Light border */
-    border-radius: 5px; /* Rounded corners */
-    margin-bottom: 10px; /* Space between inputs */
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #bdc3c7; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
 }
