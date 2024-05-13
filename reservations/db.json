@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id": "dede",
+      "Username": "Viktor",
+      "Email": "viktorsaa321@gmail.com",
+      "Password": "123456789"
+    },
+    {
+      "id": "e8b8",
+      "username": "YES",
+      "password": "YES"
+    },
+    {
+      "id": "4cbe",
+      "username": "YES²",
+      "password": "YES"
+    }
+  ],
+  "reservations": []
+}

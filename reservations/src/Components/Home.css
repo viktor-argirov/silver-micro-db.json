@@ -1,0 +1,43 @@
+/* Home.css */
+
+.home-wrapper {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-button {
+    width: 125%;
+    height: 45spx;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(230, 87, 208, 0.546);
+    cursor: pointer;
+    font-size: 16px;
+    color: #763576;
+    font-weight: 700;
+}

@@ -1,0 +1,120 @@
+/* Reservations.css */
+
+/* Wrapper for the entire reservation component */
+.reservations-wrapper {
+    position: relative;
+    width: 1000px; /* Adjust the width as needed */
+    height: auto; /* Height will be determined by the content */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Table styling */
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reservations-table th,
+.reservations-table td {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.reservations-table th {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.reservations-table td {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Button styling */
+.make-reservation-btn {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Modal container */
+.modal {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%; /* Vertically center the modal */
+    left: 50%; /* Horizontally center the modal */
+    transform: translate(-50%, -50%); /* Adjust the position to center the modal */
+    z-index: 1000;
+    width: 60%; /* Adjust width as needed */
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Show the modal when the state is true */
+.modal.show {
+    display: block;
+}
+
+/* Modal content */
+.modal-content {
+    margin: auto;
+}
+
+/* Modal header */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Modal footer */
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db; /* Blue button color */
+    color: #fff; /* White text */
+    font-weight: bold;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Add any additional styles for modal content elements */
+.modal-content input,
+.modal-content textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #bdc3c7; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between inputs */
+}
